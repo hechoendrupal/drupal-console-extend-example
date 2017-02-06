@@ -1,6 +1,6 @@
 # Drupal Console extend
 
-Instructions to extend Drupal Console adding commands using a standard package/library.
+This project contains instructions and sample code to extend Drupal Console adding commands using a standard package/library.
 
 ### Install your package:
 ```
