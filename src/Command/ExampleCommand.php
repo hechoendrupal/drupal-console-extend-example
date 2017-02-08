@@ -36,7 +36,7 @@ class ExampleCommand extends Command
     protected function configure()
     {
         $this->setName('extend:example')
-            ->setDescription('Drupal Console extend example command');
+            ->setDescription('Drupal Console extend example');
     }
 
     /**
@@ -52,7 +52,6 @@ class ExampleCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $io = new DrupalStyle($input, $output);
-        $io->commentBlock('Extend example command one.');
-        $io->warning('This is a warning');
+        $io->commentBlock('Drupal Console extend example command.');
     }
 }
