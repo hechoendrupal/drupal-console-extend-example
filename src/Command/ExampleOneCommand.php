@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains \Drupal\Console\Extend\Command\ExampleCommand
+ * Contains \Drupal\Console\ExtendExample\Command\ExampleOneCommand
  */
 
 namespace Drupal\Console\ExtendExample\Command;
@@ -14,11 +14,11 @@ use Drupal\Console\Core\Command\Shared\CommandTrait;
 use Drupal\Console\Core\Style\DrupalStyle;
 
 /**
- * Class ExampleCommand
+ * Class ExampleOneCommand
  *
- * @package Drupal\Console\GlobalExtend\Command
+ * @package Drupal\Console\ExtendExample\Command
  */
-class ExampleCommand extends Command
+class ExampleOneCommand extends Command
 {
     use CommandTrait;
     /**
@@ -35,7 +35,7 @@ class ExampleCommand extends Command
 
     protected function configure()
     {
-        $this->setName('extend:example')
+        $this->setName('extend:example:one')
             ->setDescription('Drupal Console extend example');
     }
 

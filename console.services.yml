@@ -1,5 +1,9 @@
 services:
-  console.extend_example:
-    class: \Drupal\Console\ExtendExample\Command\ExampleCommand
+  console.extend_example_one:
+    class: \Drupal\Console\ExtendExample\Command\ExampleOneCommand
     tags:
       - { name: drupal.command, bootstrap: uninstall }
+  console.extend_example_two:
+    class: \Drupal\Console\ExtendExample\Command\ExampleTwoCommand
+    tags:
+      - { name: drupal.command }
