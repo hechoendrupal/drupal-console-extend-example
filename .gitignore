@@ -15,5 +15,4 @@
 /phpunit.xml
 
 # Project
-extend.config.yml
-extend.services.yml
+composer.lock
