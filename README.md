@@ -11,10 +11,24 @@ composer require drupal/console-extend-example
 
 ### Install globally:
 ```
-cd cd ~/.console/extend/
+cd ~/.console/extend/
 
 composer require drupal/console-extend-example
 ```
+
+Now you can find your command (extend:example:one) in the list of available commands:
+```
+drupal list extend
+
+Available commands for the "extend" namespace:
+  extend:example:one        Drupal Console extend example
+```
+
+To execute the example command, run
+```
+drupal extend:example:one
+```
+
 * For more information about adding commands globally [Drupal Console Extend](https://github.com/hechoendrupal/drupal-console-extend#drupal-console-extend)
 
 ### Conventions to follow
